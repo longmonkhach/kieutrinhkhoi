@@ -1,0 +1,10 @@
+h2{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: slateblue 3px; /* tao bong mo cho chu*/
+}
+img{
+    padding: 15px;/*khoang cach */
+    margin: 5px;/*canh le*/
+    border: cadetblue dotted thick;/*tao khung*/
+}

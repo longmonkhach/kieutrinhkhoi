@@ -1,0 +1,78 @@
+/* day la file css cho cac bai tap thu muc d03*/
+
+/*Universal Selector*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* type selector*/
+a{
+    text-decoration: none;
+    padding: 30px;
+}
+
+h2{
+    color: red;
+}
+
+/* class selector, co ten bat dau bang dau . */
+.autumn{
+    font-style: italic;
+    width: 30%;
+    border: double medium brown;
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: justify;
+    background-image: url(../Images/bgtthu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+/* pseudo class: first letter, ap dung cho ky tu dau tien cua the p co class = title */
+p.title::first-letter{
+    font-size: 200%;
+}
+
+/* pseudo class: first line, ap dung cho dong dau tien cua the p co class = title1 */
+p.title1::first-line{
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+
+/*id selector, co ten bat dau bang dau # */
+#menu a{
+    position: relative;
+    top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#hinhmain img{
+
+    width: 100%;
+  
+}
+nav{
+    height: 300px;
+    background-image: url(../Images/bgtthu3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+p:hover{
+    background: seagreen;
+    color: rgb(247, 243, 243);
+}
+
+div>img{
+    border: cyan outset medium;
+    border-radius: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}

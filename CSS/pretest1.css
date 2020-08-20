@@ -1,0 +1,34 @@
+*{ margin: 0; padding: 0;} 
+.home{ width: 1050px; height: 500px;  margin: 0px auto;} 
+h1
+{
+    background: green; color: cornsilk;
+}
+.main_menu ul li
+{
+    list-style: none; float: left; padding: 10px 65px;
+}
+.main_menu ul li a
+{
+    text-decoration: none; 
+}
+a
+{
+    color: blue;
+}
+img
+{
+    width: 550px; height: 300px;
+}
+.infomation
+{
+    width: 550px; height: 750px; margin: 0px auto;
+}
+.infomation input
+{
+    padding-left: 1px;
+}
+.infomation textarea
+{
+    padding-left: 2px;
+}
